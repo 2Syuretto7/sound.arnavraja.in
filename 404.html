@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ordered time</title>
+<meta name="description" content="sound.arnavraja.in, part of arnavraja.in.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root { --paper: #F2F3EF; --ink: #16211F; --muted: #56625D; --rule: #D1D6CF; --accent: #3337A8;
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper: #111513; --ink: #E7EBE7; --muted: #9AA59F; --rule: #2B332F; --accent: #A3A7FF; color-scheme: dark; } }
+:root[data-theme="dark"] { --paper: #111513; --ink: #E7EBE7; --muted: #9AA59F; --rule: #2B332F; --accent: #A3A7FF; color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--display); -webkit-font-smoothing: antialiased;
+  display: flex; flex-direction: column; justify-content: center;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+main { width: 100%; max-width: 60rem; margin: 0 auto; padding-inline: clamp(0px, 3vw, 2rem); }
+.label { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); margin: 0 0 1rem; }
+.label b { color: var(--accent); font-weight: 500; }
+h1 { font-weight: 800; font-size: clamp(3rem, 10vw, 7rem); line-height: 0.9; letter-spacing: -0.045em; margin: 0; }
+.home { display: inline-block; margin-top: 2.25rem; font-family: var(--mono); font-size: 0.9rem; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 0.15rem; }
+.home:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.home:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="label"><b>sound</b>.arnavraja.in</p>
+  <h1>Ordered time</h1>
+  <a class="home" href="https://arnavraja.in">arnavraja.in</a>
+</main>
+</body>
+</html>
